@@ -35,7 +35,14 @@ class ImageSearch:
     def init_browser(self):
         chrome_options = Options()
         chrome_options.add_argument("--headless")
-        self.browser = webdriver.Chrome(ChromeDriverManager().install())
+        # self.browser = webdriver.Chrome(ChromeDriverManager().install())
+        
+        cService = webdriver.ChromeService(executable_path="/home/iiserver32/Workbench/fyb/figurative/IRFL/pipeline/chromedriver-linux64/chromedriver")
+        cOptions = webdriver.ChromeOptions()
+        cOptions.add_argument("--disable-dev-shm-usage")
+        cOptions.add_argument("--no-sandbox")
+        cOptions.add_argument("--headless")
+        self.browser = webdriver.Chrome(service=cService, options=cOptions)
         self.browser.set_window_size(1024, 768)
         self.browser.get('https://www.google.com/search?q=test&source=lnms&tbm=isch')
         self.change_region_and_activate_safe_search()
@@ -52,6 +59,7 @@ class ImageSearch:
         return source
 
     def change_region_and_activate_safe_search(self):
+        # time.sleep(2)
         time.sleep(2)
         self.browser.find_element(By.XPATH, '//div[@aria-label="Quick Settings"]').click()  # Opens settings
         time.sleep(1)

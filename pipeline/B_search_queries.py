@@ -1,3 +1,9 @@
+import os
+import sys
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+
 from assets.config import B_search_queries_path, MAGPIE_dataset
 from pipeline.MAGPIE_dataset_generation import MAGPIE_dataset_generation
 from pipeline.utils.utils import get_json, dump_json

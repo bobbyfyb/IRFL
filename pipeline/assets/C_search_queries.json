@@ -1,0 +1,2042 @@
+[
+    {
+        "definition": [
+            {
+                "context": "idiomatic",
+                "definition": "To resolve a conflict with"
+            },
+            {
+                "context": "idiomatic",
+                "definition": "To accept or resign oneself to something emotionally painful"
+            },
+            {
+                "context": "",
+                "definition": "come to terms with"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "come to terms with",
+        "search_query": [
+            {
+                "length_score": 26,
+                "perplexity_score": 0.17757522142850435,
+                "query": "To resolve a conflict with",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 60,
+                "perplexity_score": 0.11209775606791178,
+                "query": "To accept or resign oneself to something emotionally painful",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 18,
+                "perplexity_score": 0.2568366792466905,
+                "query": "come to terms with",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic",
+                "definition": "To cease the activity for the day"
+            },
+            {
+                "context": "idiomatic",
+                "definition": "To retire"
+            },
+            {
+                "context": "idiomatic",
+                "definition": "To end a period of activity, either because it is unsuccessful or because enough has been done"
+            },
+            {
+                "context": "",
+                "definition": "call it a day"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "call it a day",
+        "search_query": [
+            {
+                "length_score": 33,
+                "perplexity_score": 0.1587949377117735,
+                "query": "To cease the activity for the day",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 9,
+                "perplexity_score": 1.1911484400431316,
+                "query": "To retire",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 94,
+                "perplexity_score": 0.03973587523115442,
+                "query": "To end a period of activity, either because it is unsuccessful or because enough has been done",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 13,
+                "perplexity_score": 0.30516618948716384,
+                "query": "call it a day",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic",
+                "definition": "Unexpectedly"
+            },
+            {
+                "context": "idiomatic",
+                "definition": "without warning or preparation"
+            },
+            {
+                "context": "",
+                "definition": "out of the blue"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "out of the blue",
+        "search_query": [
+            {
+                "length_score": 12,
+                "perplexity_score": 0.5370343128840128,
+                "query": "Unexpectedly",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 30,
+                "perplexity_score": 0.24027708371480305,
+                "query": "without warning or preparation",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 15,
+                "perplexity_score": 0.2671933809916178,
+                "query": "out of the blue",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic",
+                "definition": "As quickly as possible"
+            },
+            {
+                "context": "idiomatic",
+                "definition": "very rapidly"
+            },
+            {
+                "context": "",
+                "definition": "full tilt"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "full tilt",
+        "search_query": [
+            {
+                "length_score": 22,
+                "perplexity_score": 0.1850468028675426,
+                "query": "As quickly as possible",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 12,
+                "perplexity_score": 0.8519886334737142,
+                "query": "very rapidly",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 9,
+                "perplexity_score": 1.2545807096693251,
+                "query": "full tilt",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "",
+                "definition": "In writing, particularly handwritten or printed as opposed to digital"
+            },
+            {
+                "context": "figuratively",
+                "definition": "Based on debatable inference"
+            },
+            {
+                "context": "figuratively",
+                "definition": "in theory"
+            },
+            {
+                "context": "slang",
+                "definition": "Of a convicted criminal: on parole"
+            },
+            {
+                "context": "",
+                "definition": "on paper"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "on paper",
+        "search_query": [
+            {
+                "length_score": 69,
+                "perplexity_score": 0.08137264804563661,
+                "query": "In writing, particularly handwritten or printed as opposed to digital",
+                "source_context_score": 0
+            },
+            {
+                "length_score": 28,
+                "perplexity_score": 0.2505390303475516,
+                "query": "Based on debatable inference",
+                "source_context_score": 1
+            },
+            {
+                "length_score": 9,
+                "perplexity_score": 1.043574121263292,
+                "query": "in theory",
+                "source_context_score": 1
+            },
+            {
+                "length_score": 34,
+                "perplexity_score": 0.17215364119585821,
+                "query": "Of a convicted criminal: on parole",
+                "source_context_score": -2
+            },
+            {
+                "length_score": 8,
+                "perplexity_score": 1.1969094276428223,
+                "query": "on paper",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic",
+                "definition": "Literally, exactly, following the rules as written"
+            },
+            {
+                "context": "",
+                "definition": "to the letter"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "to the letter",
+        "search_query": [
+            {
+                "length_score": 50,
+                "perplexity_score": 0.09486927032470703,
+                "query": "Literally, exactly, following the rules as written",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 13,
+                "perplexity_score": 0.4086247957669772,
+                "query": "to the letter",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic",
+                "definition": "To elicit a significant reaction, especially one which is favorable or sympathetic"
+            },
+            {
+                "context": "idiomatic",
+                "definition": "To convey a feeling or meaning which someone personally internalizes and takes to heart"
+            },
+            {
+                "context": "",
+                "definition": "strike a chord"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "strike a chord",
+        "search_query": [
+            {
+                "length_score": 82,
+                "perplexity_score": 0.060864710226291564,
+                "query": "To elicit a significant reaction, especially one which is favorable or sympathetic",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 87,
+                "perplexity_score": 0.06076473477243007,
+                "query": "To convey a feeling or meaning which someone personally internalizes and takes to heart",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 14,
+                "perplexity_score": 0.48451389585222515,
+                "query": "strike a chord",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic",
+                "definition": "To make something unclear and difficult to understand"
+            },
+            {
+                "context": "",
+                "definition": "muddy the waters"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "muddy the waters",
+        "search_query": [
+            {
+                "length_score": 53,
+                "perplexity_score": 0.08613311119799344,
+                "query": "To make something unclear and difficult to understand",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 16,
+                "perplexity_score": 0.49312031269073486,
+                "query": "muddy the waters",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic",
+                "definition": "To act as a host to guests"
+            },
+            {
+                "context": "idiomatic",
+                "definition": "To perform a duty"
+            },
+            {
+                "context": "",
+                "definition": "do the honours"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "do the honours",
+        "search_query": [
+            {
+                "length_score": 26,
+                "perplexity_score": 0.17146930327782264,
+                "query": "To act as a host to guests",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 17,
+                "perplexity_score": 0.36831056370454673,
+                "query": "To perform a duty",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 14,
+                "perplexity_score": 0.3201194831303188,
+                "query": "do the honours",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic",
+                "definition": "Everywhere"
+            },
+            {
+                "context": "idiomatic",
+                "definition": "all over the place"
+            },
+            {
+                "context": "dated, obsolete",
+                "definition": "Wholly"
+            },
+            {
+                "context": "dated, obsolete",
+                "definition": "entirely"
+            },
+            {
+                "context": "dated, obsolete",
+                "definition": "People of high rank or status"
+            },
+            {
+                "context": "",
+                "definition": "high and low"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "high and low",
+        "search_query": [
+            {
+                "length_score": 10,
+                "perplexity_score": 0.9436022758483886,
+                "query": "Everywhere",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 18,
+                "perplexity_score": 0.24442463450961643,
+                "query": "all over the place",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 6,
+                "perplexity_score": 1.3717727661132812,
+                "query": "Wholly",
+                "source_context_score": -1
+            },
+            {
+                "length_score": 8,
+                "perplexity_score": 0.8661121129989624,
+                "query": "entirely",
+                "source_context_score": -1
+            },
+            {
+                "length_score": 29,
+                "perplexity_score": 0.16117730633965854,
+                "query": "People of high rank or status",
+                "source_context_score": -1
+            },
+            {
+                "length_score": 12,
+                "perplexity_score": 0.31124621629714966,
+                "query": "high and low",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic",
+                "definition": "To suffer a disastrous outcome"
+            },
+            {
+                "context": "",
+                "definition": "come to grief"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "come to grief",
+        "search_query": [
+            {
+                "length_score": 30,
+                "perplexity_score": 0.20491628646850585,
+                "query": "To suffer a disastrous outcome",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 13,
+                "perplexity_score": 0.51110106248122,
+                "query": "come to grief",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "",
+                "definition": "Do not despair"
+            },
+            {
+                "context": "",
+                "definition": "the outlook may be better than it seems, so don't give up"
+            },
+            {
+                "context": "",
+                "definition": "never say die"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "never say die",
+        "search_query": [
+            {
+                "length_score": 14,
+                "perplexity_score": 0.3976195880344936,
+                "query": "Do not despair",
+                "source_context_score": 0
+            },
+            {
+                "length_score": 57,
+                "perplexity_score": 0.05808637853254352,
+                "query": "the outlook may be better than it seems, so don't give up",
+                "source_context_score": 0
+            },
+            {
+                "length_score": 13,
+                "perplexity_score": 0.572935911325308,
+                "query": "never say die",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "slang",
+                "definition": "To achieve or stimulate a penile erection"
+            },
+            {
+                "context": "slang, figurative, by extension",
+                "definition": "To be enthusiastic about something"
+            },
+            {
+                "context": "slang, figurative, by extension",
+                "definition": "to maintain enthusiasm for something"
+            },
+            {
+                "context": "slang",
+                "definition": "To acquire enough money to pay off a debt"
+            },
+            {
+                "context": "",
+                "definition": "get it up"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "get it up",
+        "search_query": [
+            {
+                "length_score": 41,
+                "perplexity_score": 0.13965455497183452,
+                "query": "To achieve or stimulate a penile erection",
+                "source_context_score": -2
+            },
+            {
+                "length_score": 34,
+                "perplexity_score": 0.14107530257281134,
+                "query": "To be enthusiastic about something",
+                "source_context_score": -2
+            },
+            {
+                "length_score": 36,
+                "perplexity_score": 0.1835325558980306,
+                "query": "to maintain enthusiasm for something",
+                "source_context_score": -2
+            },
+            {
+                "length_score": 41,
+                "perplexity_score": 0.08931444330913264,
+                "query": "To acquire enough money to pay off a debt",
+                "source_context_score": -2
+            },
+            {
+                "length_score": 9,
+                "perplexity_score": 0.484036922454834,
+                "query": "get it up",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic, colloquial",
+                "definition": "To merely touch"
+            },
+            {
+                "context": "",
+                "definition": "lay a finger on"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "lay a finger on",
+        "search_query": [
+            {
+                "length_score": 15,
+                "perplexity_score": 0.5672833760579427,
+                "query": "To merely touch",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 15,
+                "perplexity_score": 0.33239924112955727,
+                "query": "lay a finger on",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "transitive, idiomatic",
+                "definition": "To accuse or blame (someone)"
+            },
+            {
+                "context": "",
+                "definition": "point the finger"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "point the finger",
+        "search_query": [
+            {
+                "length_score": 28,
+                "perplexity_score": 0.20821998800550187,
+                "query": "To accuse or blame (someone)",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 16,
+                "perplexity_score": 0.3877243101596832,
+                "query": "point the finger",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "",
+                "definition": "Expressing complete satisfaction with someone's efforts"
+            },
+            {
+                "context": "",
+                "definition": "The maximum marks obtainable in an exam or test"
+            },
+            {
+                "context": "idiomatic, by extension",
+                "definition": "Complete approval or agreement"
+            },
+            {
+                "context": "",
+                "definition": "full marks"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "full marks",
+        "search_query": [
+            {
+                "length_score": 55,
+                "perplexity_score": 0.10329015038230202,
+                "query": "Expressing complete satisfaction with someone's efforts",
+                "source_context_score": 0
+            },
+            {
+                "length_score": 47,
+                "perplexity_score": 0.1293022987690378,
+                "query": "The maximum marks obtainable in an exam or test",
+                "source_context_score": 0
+            },
+            {
+                "length_score": 30,
+                "perplexity_score": 0.25347806612650553,
+                "query": "Complete approval or agreement",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 10,
+                "perplexity_score": 1.0295208930969237,
+                "query": "full marks",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic",
+                "definition": "operational, in operation"
+            },
+            {
+                "context": "",
+                "definition": "up and running"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "up and running",
+        "search_query": [
+            {
+                "length_score": 25,
+                "perplexity_score": 0.2482229232788086,
+                "query": "operational, in operation",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 14,
+                "perplexity_score": 0.40776027951921734,
+                "query": "up and running",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic, colloquial",
+                "definition": "Used to confirm preceding utterance, while implying that what was said or asked is an understatement"
+            },
+            {
+                "context": "",
+                "definition": "and then some"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "and then some",
+        "search_query": [
+            {
+                "length_score": 100,
+                "perplexity_score": 0.05104567050933838,
+                "query": "Used to confirm preceding utterance, while implying that what was said or asked is an understatement",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 13,
+                "perplexity_score": 0.44619890359731823,
+                "query": "and then some",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic",
+                "definition": "To confess"
+            },
+            {
+                "context": "idiomatic",
+                "definition": "admit the truth"
+            },
+            {
+                "context": "",
+                "definition": "come clean"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "come clean",
+        "search_query": [
+            {
+                "length_score": 10,
+                "perplexity_score": 1.1538813591003418,
+                "query": "To confess",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 15,
+                "perplexity_score": 0.4250956535339355,
+                "query": "admit the truth",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 10,
+                "perplexity_score": 1.016915988922119,
+                "query": "come clean",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic, often hyphenated, chiefly of an act of communication",
+                "definition": "Done in a direct manner"
+            },
+            {
+                "context": "idiomatic, often hyphenated, chiefly of an act of communication",
+                "definition": "blunt"
+            },
+            {
+                "context": "idiomatic, chiefly of communicating",
+                "definition": "In a straightforward manner"
+            },
+            {
+                "context": "idiomatic, chiefly of communicating",
+                "definition": "directly"
+            },
+            {
+                "context": "idiomatic, chiefly of communicating",
+                "definition": "bluntly"
+            },
+            {
+                "context": "",
+                "definition": "straight from the shoulder"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "straight from the shoulder",
+        "search_query": [
+            {
+                "length_score": 23,
+                "perplexity_score": 0.21945298236349356,
+                "query": "Done in a direct manner",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 5,
+                "perplexity_score": 1.6379287719726563,
+                "query": "blunt",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 27,
+                "perplexity_score": 0.20247281039202655,
+                "query": "In a straightforward manner",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 8,
+                "perplexity_score": 0.7969880104064941,
+                "query": "directly",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 7,
+                "perplexity_score": 0.9787139892578125,
+                "query": "bluntly",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 26,
+                "perplexity_score": 0.18588961087740385,
+                "query": "straight from the shoulder",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "",
+                "definition": "A general guideline, rather than a strict rule"
+            },
+            {
+                "context": "",
+                "definition": "an approximate measure or means of reckoning based on experience or common knowledge"
+            },
+            {
+                "context": "attributive, usually hyphenated",
+                "definition": "Approximated, guesstimated"
+            },
+            {
+                "context": "",
+                "definition": "rule of thumb"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "rule of thumb",
+        "search_query": [
+            {
+                "length_score": 46,
+                "perplexity_score": 0.09127600296683934,
+                "query": "A general guideline, rather than a strict rule",
+                "source_context_score": 0
+            },
+            {
+                "length_score": 84,
+                "perplexity_score": 0.0656857206707909,
+                "query": "an approximate measure or means of reckoning based on experience or common knowledge",
+                "source_context_score": 0
+            },
+            {
+                "length_score": 26,
+                "perplexity_score": 0.21491094735952523,
+                "query": "Approximated, guesstimated",
+                "source_context_score": -1
+            },
+            {
+                "length_score": 13,
+                "perplexity_score": 0.41429692048292893,
+                "query": "rule of thumb",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic",
+                "definition": "To cause a disturbance"
+            },
+            {
+                "context": "idiomatic",
+                "definition": "To upset the status quo"
+            },
+            {
+                "context": "",
+                "definition": "make waves"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "make waves",
+        "search_query": [
+            {
+                "length_score": 22,
+                "perplexity_score": 0.22453648393804376,
+                "query": "To cause a disturbance",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 23,
+                "perplexity_score": 0.18501924431842307,
+                "query": "To upset the status quo",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 10,
+                "perplexity_score": 1.028063678741455,
+                "query": "make waves",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic",
+                "definition": "People having similar characters, backgrounds, interests, or beliefs"
+            },
+            {
+                "context": "",
+                "definition": "birds of a feather"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "birds of a feather",
+        "search_query": [
+            {
+                "length_score": 68,
+                "perplexity_score": 0.06495609002954819,
+                "query": "People having similar characters, backgrounds, interests, or beliefs",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 18,
+                "perplexity_score": 0.2795674800872803,
+                "query": "birds of a feather",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "informal",
+                "definition": "Exact"
+            },
+            {
+                "context": "informal",
+                "definition": "correct"
+            },
+            {
+                "context": "informal",
+                "definition": "accurate"
+            },
+            {
+                "context": "informal",
+                "definition": "absolutely right"
+            },
+            {
+                "context": "informal",
+                "definition": "Excellent"
+            },
+            {
+                "context": "",
+                "definition": "spot on"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "spot on",
+        "search_query": [
+            {
+                "length_score": 5,
+                "perplexity_score": 1.5591002464294434,
+                "query": "Exact",
+                "source_context_score": -1
+            },
+            {
+                "length_score": 7,
+                "perplexity_score": NaN,
+                "query": "correct",
+                "source_context_score": -1
+            },
+            {
+                "length_score": 8,
+                "perplexity_score": 1.188673973083496,
+                "query": "accurate",
+                "source_context_score": -1
+            },
+            {
+                "length_score": 16,
+                "perplexity_score": 0.4393949508666992,
+                "query": "absolutely right",
+                "source_context_score": -1
+            },
+            {
+                "length_score": 9,
+                "perplexity_score": NaN,
+                "query": "Excellent",
+                "source_context_score": -1
+            },
+            {
+                "length_score": 7,
+                "perplexity_score": 0.6530964715140206,
+                "query": "spot on",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic, informal",
+                "definition": "To suffer a hardship, especially significant financial pressure"
+            },
+            {
+                "context": "",
+                "definition": "feel the pinch"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "feel the pinch",
+        "search_query": [
+            {
+                "length_score": 63,
+                "perplexity_score": 0.09396141294449095,
+                "query": "To suffer a hardship, especially significant financial pressure",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 14,
+                "perplexity_score": 0.39261531829833984,
+                "query": "feel the pinch",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "",
+                "definition": "Present in a physical body"
+            },
+            {
+                "context": "",
+                "definition": "in person"
+            },
+            {
+                "context": "religion, especially Christianity",
+                "definition": "incarnate (of God or a deity: having assumed an earthly body)"
+            },
+            {
+                "context": "",
+                "definition": "in the flesh"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "in the flesh",
+        "search_query": [
+            {
+                "length_score": 26,
+                "perplexity_score": 0.17682794424203727,
+                "query": "Present in a physical body",
+                "source_context_score": 0
+            },
+            {
+                "length_score": 9,
+                "perplexity_score": 0.9490764405992296,
+                "query": "in person",
+                "source_context_score": 0
+            },
+            {
+                "length_score": 61,
+                "perplexity_score": 0.0760469358475482,
+                "query": "incarnate (of God or a deity: having assumed an earthly body)",
+                "source_context_score": -1
+            },
+            {
+                "length_score": 12,
+                "perplexity_score": 0.45062704881032306,
+                "query": "in the flesh",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic",
+                "definition": "Six strokes with a cane, a traditional school punishment"
+            },
+            {
+                "context": "",
+                "definition": "six of the best"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "six of the best",
+        "search_query": [
+            {
+                "length_score": 56,
+                "perplexity_score": 0.11145033155168806,
+                "query": "Six strokes with a cane, a traditional school punishment",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 15,
+                "perplexity_score": 0.21279829343159992,
+                "query": "six of the best",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic",
+                "definition": "To sacrifice someone, especially in an attempt to save oneself"
+            },
+            {
+                "context": "idiomatic",
+                "definition": "To remove or cast out someone or something out of one's protection, such as onto the streets, especially towards predators"
+            },
+            {
+                "context": "",
+                "definition": "throw someone to the wolves"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "throw someone to the wolves",
+        "search_query": [
+            {
+                "length_score": 62,
+                "perplexity_score": 0.06570603001502252,
+                "query": "To sacrifice someone, especially in an attempt to save oneself",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 122,
+                "perplexity_score": 0.04063914252109215,
+                "query": "To remove or cast out someone or something out of one's protection, such as onto the streets, especially towards predators",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 27,
+                "perplexity_score": 0.19113798494692202,
+                "query": "throw someone to the wolves",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic",
+                "definition": "To win or earn a large amount of money"
+            },
+            {
+                "context": "",
+                "definition": "make a killing"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "make a killing",
+        "search_query": [
+            {
+                "length_score": 38,
+                "perplexity_score": 0.10241639614105225,
+                "query": "To win or earn a large amount of money",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 14,
+                "perplexity_score": 0.3882045405251639,
+                "query": "make a killing",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "nautical",
+                "definition": "To remove, or fasten, all loose material, or partitions prior to a naval engagement"
+            },
+            {
+                "context": "by extension, figurative",
+                "definition": "To prepare for action"
+            },
+            {
+                "context": "",
+                "definition": "clear the decks"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "clear the decks",
+        "search_query": [
+            {
+                "length_score": 83,
+                "perplexity_score": 0.059318892927054896,
+                "query": "To remove, or fasten, all loose material, or partitions prior to a naval engagement",
+                "source_context_score": -1
+            },
+            {
+                "length_score": 21,
+                "perplexity_score": 0.260904970623198,
+                "query": "To prepare for action",
+                "source_context_score": -1
+            },
+            {
+                "length_score": 15,
+                "perplexity_score": 0.4318579037984212,
+                "query": "clear the decks",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "UK, Ireland, sailing, slang",
+                "definition": "To put up the mast of a ship in preparation for sailing"
+            },
+            {
+                "context": "UK, Ireland, figurative, colloquial",
+                "definition": "To prepare to move"
+            },
+            {
+                "context": "UK, Ireland, figurative, colloquial",
+                "definition": "to pack up"
+            },
+            {
+                "context": "UK, Ireland, figurative, colloquial",
+                "definition": "to go and live in a different place"
+            },
+            {
+                "context": "",
+                "definition": "up sticks"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "up sticks",
+        "search_query": [
+            {
+                "length_score": 55,
+                "perplexity_score": 0.07684398997913708,
+                "query": "To put up the mast of a ship in preparation for sailing",
+                "source_context_score": -2
+            },
+            {
+                "length_score": 18,
+                "perplexity_score": 0.2973027494218614,
+                "query": "To prepare to move",
+                "source_context_score": -1
+            },
+            {
+                "length_score": 10,
+                "perplexity_score": 0.616842794418335,
+                "query": "to pack up",
+                "source_context_score": -1
+            },
+            {
+                "length_score": 35,
+                "perplexity_score": 0.10301800455365862,
+                "query": "to go and live in a different place",
+                "source_context_score": -1
+            },
+            {
+                "length_score": 9,
+                "perplexity_score": 1.2897264692518446,
+                "query": "up sticks",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic",
+                "definition": "To infer a meaning that is not stated explicitly"
+            },
+            {
+                "context": "",
+                "definition": "read between the lines"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "read between the lines",
+        "search_query": [
+            {
+                "length_score": 48,
+                "perplexity_score": 0.09733564654986064,
+                "query": "To infer a meaning that is not stated explicitly",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 22,
+                "perplexity_score": 0.18633183566006747,
+                "query": "read between the lines",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "",
+                "definition": "Existence together with the bodily faculties"
+            },
+            {
+                "context": "",
+                "definition": "life and limb"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "life and limb",
+        "search_query": [
+            {
+                "length_score": 44,
+                "perplexity_score": 0.1519930145957253,
+                "query": "Existence together with the bodily faculties",
+                "source_context_score": 0
+            },
+            {
+                "length_score": 13,
+                "perplexity_score": 0.49563074111938477,
+                "query": "life and limb",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "",
+                "definition": "at an important point in somebody\u2019s life or development"
+            },
+            {
+                "context": "",
+                "definition": "at the crossroads"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "at the crossroads",
+        "search_query": [
+            {
+                "length_score": 55,
+                "perplexity_score": 0.11416697935624556,
+                "query": "at an important point in somebody\u2019s life or development",
+                "source_context_score": 0
+            },
+            {
+                "length_score": 17,
+                "perplexity_score": 0.2310476162854363,
+                "query": "at the crossroads",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic",
+                "definition": "In a straight line distance between two locations, as opposed to the road distance or over land distance"
+            },
+            {
+                "context": "",
+                "definition": "as the crow flies"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "as the crow flies",
+        "search_query": [
+            {
+                "length_score": 104,
+                "perplexity_score": 0.0443122203533466,
+                "query": "In a straight line distance between two locations, as opposed to the road distance or over land distance",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 17,
+                "perplexity_score": 0.3111398360308479,
+                "query": "as the crow flies",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic, chiefly UK",
+                "definition": "To deal (with something) decisively, or to confront (it) head on"
+            },
+            {
+                "context": "idiomatic, chiefly UK",
+                "definition": "To battle (with something)"
+            },
+            {
+                "context": "idiomatic, chiefly UK",
+                "definition": "To gain an understanding (of something)"
+            },
+            {
+                "context": "",
+                "definition": "get to grips with"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "get to grips with",
+        "search_query": [
+            {
+                "length_score": 64,
+                "perplexity_score": 0.06992938369512558,
+                "query": "To deal (with something) decisively, or to confront (it) head on",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 26,
+                "perplexity_score": 0.22249524409954363,
+                "query": "To battle (with something)",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 39,
+                "perplexity_score": 0.1168663685138409,
+                "query": "To gain an understanding (of something)",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 17,
+                "perplexity_score": 0.23582904479082892,
+                "query": "get to grips with",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic",
+                "definition": "To make an all-out effort"
+            },
+            {
+                "context": "idiomatic",
+                "definition": "To fail, to run out of options"
+            },
+            {
+                "context": "",
+                "definition": "To be put aside or forgotten"
+            },
+            {
+                "context": "",
+                "definition": "To take an extreme and determined position or measure"
+            },
+            {
+                "context": "",
+                "definition": "go to the wall"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "go to the wall",
+        "search_query": [
+            {
+                "length_score": 25,
+                "perplexity_score": 0.1336614990234375,
+                "query": "To make an all-out effort",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 30,
+                "perplexity_score": 0.1358763535817464,
+                "query": "To fail, to run out of options",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 28,
+                "perplexity_score": 0.19130064759935653,
+                "query": "To be put aside or forgotten",
+                "source_context_score": 0
+            },
+            {
+                "length_score": 53,
+                "perplexity_score": 0.1112544131728838,
+                "query": "To take an extreme and determined position or measure",
+                "source_context_score": 0
+            },
+            {
+                "length_score": 14,
+                "perplexity_score": 0.29185339382716585,
+                "query": "go to the wall",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic",
+                "definition": "In a manner which adheres strictly to rules, legal requirements, or official procedures"
+            },
+            {
+                "context": "idiomatic, by extension",
+                "definition": "In a manner which appears too studied, ritualized, and therefore artificial"
+            },
+            {
+                "context": "",
+                "definition": "by the book"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "by the book",
+        "search_query": [
+            {
+                "length_score": 87,
+                "perplexity_score": 0.0504347538125926,
+                "query": "In a manner which adheres strictly to rules, legal requirements, or official procedures",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 75,
+                "perplexity_score": 0.07062800725301106,
+                "query": "In a manner which appears too studied, ritualized, and therefore artificial",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 11,
+                "perplexity_score": 0.4338391910899769,
+                "query": "by the book",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "being given something",
+                "definition": "too easily, more than one deserves"
+            },
+            {
+                "context": "",
+                "definition": "on a silver platter"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "on a silver platter",
+        "search_query": [
+            {
+                "length_score": 34,
+                "perplexity_score": 0.1627031634835636,
+                "query": "too easily, more than one deserves",
+                "source_context_score": -1
+            },
+            {
+                "length_score": 19,
+                "perplexity_score": 0.23379064861096835,
+                "query": "on a silver platter",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic",
+                "definition": "A deciding instant"
+            },
+            {
+                "context": "idiomatic",
+                "definition": "the time when a test determines or makes it apparent whether something will succeed"
+            },
+            {
+                "context": "",
+                "definition": "moment of truth"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "moment of truth",
+        "search_query": [
+            {
+                "length_score": 18,
+                "perplexity_score": 0.6107670466105143,
+                "query": "A deciding instant",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 83,
+                "perplexity_score": 0.06300180504120977,
+                "query": "the time when a test determines or makes it apparent whether something will succeed",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 15,
+                "perplexity_score": 0.3526347478230794,
+                "query": "moment of truth",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "",
+                "definition": "A good person"
+            },
+            {
+                "context": "",
+                "definition": "a hero"
+            },
+            {
+                "context": "computing, computer security, slang",
+                "definition": "A well-meaning hacker who hacks for a good cause or to aid a company, organization, or government without causing harm (for example, to identify security flaws)"
+            },
+            {
+                "context": "slang",
+                "definition": "A sailor"
+            },
+            {
+                "context": "",
+                "definition": "white hat"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "white hat",
+        "search_query": [
+            {
+                "length_score": 13,
+                "perplexity_score": 0.4884597338162936,
+                "query": "A good person",
+                "source_context_score": 0
+            },
+            {
+                "length_score": 6,
+                "perplexity_score": 1.7724555333455403,
+                "query": "a hero",
+                "source_context_score": 0
+            },
+            {
+                "length_score": 160,
+                "perplexity_score": 0.02324327528476715,
+                "query": "A well-meaning hacker who hacks for a good cause or to aid a company, organization, or government without causing harm (for example, to identify security flaws)",
+                "source_context_score": -2
+            },
+            {
+                "length_score": 8,
+                "perplexity_score": 1.5225986242294312,
+                "query": "A sailor",
+                "source_context_score": -2
+            },
+            {
+                "length_score": 9,
+                "perplexity_score": 1.0424293941921658,
+                "query": "white hat",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic, intransitive, entertainment",
+                "definition": "To be the best performer during a performance"
+            },
+            {
+                "context": "",
+                "definition": "steal the show"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "steal the show",
+        "search_query": [
+            {
+                "length_score": 45,
+                "perplexity_score": 0.09389786190456814,
+                "query": "To be the best performer during a performance",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 14,
+                "perplexity_score": 0.4363391399383545,
+                "query": "steal the show",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic, religious",
+                "definition": "To undergo a spiritual conversion"
+            },
+            {
+                "context": "idiomatic",
+                "definition": "To gain an understanding of something previously not understood, especially in a sudden insight"
+            },
+            {
+                "context": "idiomatic",
+                "definition": "To come into the world or to public notice"
+            },
+            {
+                "context": "",
+                "definition": "see the light"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "see the light",
+        "search_query": [
+            {
+                "length_score": 33,
+                "perplexity_score": 0.1931494799527255,
+                "query": "To undergo a spiritual conversion",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 95,
+                "perplexity_score": 0.04744804281937449,
+                "query": "To gain an understanding of something previously not understood, especially in a sudden insight",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 42,
+                "perplexity_score": 0.1233751546768915,
+                "query": "To come into the world or to public notice",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 13,
+                "perplexity_score": 0.4549256104689378,
+                "query": "see the light",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic",
+                "definition": "To lift weights"
+            },
+            {
+                "context": "idiomatic",
+                "definition": "to engage in weight or strength training"
+            },
+            {
+                "context": "",
+                "definition": "pump iron"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "pump iron",
+        "search_query": [
+            {
+                "length_score": 15,
+                "perplexity_score": 0.47781155904134115,
+                "query": "To lift weights",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 40,
+                "perplexity_score": 0.12747198343276978,
+                "query": "to engage in weight or strength training",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 9,
+                "perplexity_score": 1.1124164793226454,
+                "query": "pump iron",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "figuratively",
+                "definition": "To follow the same path as someone"
+            },
+            {
+                "context": "figuratively",
+                "definition": "to take actions similar to another's"
+            },
+            {
+                "context": "",
+                "definition": "follow in someone's footsteps"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "follow in someone's footsteps",
+        "search_query": [
+            {
+                "length_score": 34,
+                "perplexity_score": 0.12957924955031452,
+                "query": "To follow the same path as someone",
+                "source_context_score": 1
+            },
+            {
+                "length_score": 36,
+                "perplexity_score": 0.16013097763061523,
+                "query": "to take actions similar to another's",
+                "source_context_score": 1
+            },
+            {
+                "length_score": 29,
+                "perplexity_score": 0.16130620035631904,
+                "query": "follow in someone's footsteps",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic, figuratively",
+                "definition": "A dangerous situation"
+            },
+            {
+                "context": "idiomatic, figuratively",
+                "definition": "trouble"
+            },
+            {
+                "context": "idiomatic, figuratively",
+                "definition": "fierce criticism"
+            },
+            {
+                "context": "",
+                "definition": "in hot water"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "in hot water",
+        "search_query": [
+            {
+                "length_score": 21,
+                "perplexity_score": 0.32485198974609375,
+                "query": "A dangerous situation",
+                "source_context_score": 1
+            },
+            {
+                "length_score": 7,
+                "perplexity_score": 0.7418661117553711,
+                "query": "trouble",
+                "source_context_score": 1
+            },
+            {
+                "length_score": 16,
+                "perplexity_score": 0.6123309135437012,
+                "query": "fierce criticism",
+                "source_context_score": 1
+            },
+            {
+                "length_score": 12,
+                "perplexity_score": 0.4705878098805745,
+                "query": "in hot water",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "idiomatic, transitive",
+                "definition": "To spend more time and energy on some task than it warrants"
+            },
+            {
+                "context": "idiomatic, transitive",
+                "definition": "to make something overly complicated"
+            },
+            {
+                "context": "idiomatic, transitive",
+                "definition": "to make a big thing out of"
+            },
+            {
+                "context": "",
+                "definition": "To eat something as a meal"
+            },
+            {
+                "context": "",
+                "definition": "make a meal of"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "make a meal of",
+        "search_query": [
+            {
+                "length_score": 59,
+                "perplexity_score": 0.0790341910669359,
+                "query": "To spend more time and energy on some task than it warrants",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 36,
+                "perplexity_score": 0.1762334770626492,
+                "query": "to make something overly complicated",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 26,
+                "perplexity_score": 0.12961993767664984,
+                "query": "to make a big thing out of",
+                "source_context_score": 2
+            },
+            {
+                "length_score": 26,
+                "perplexity_score": 0.19545843051030085,
+                "query": "To eat something as a meal",
+                "source_context_score": 0
+            },
+            {
+                "length_score": 14,
+                "perplexity_score": 0.3460947104862758,
+                "query": "make a meal of",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "colloquial",
+                "definition": "To do something alone or independently, especially something that is normally or better done in groups"
+            },
+            {
+                "context": "card games",
+                "definition": "To play a hand without the assistance of one's partner"
+            },
+            {
+                "context": "",
+                "definition": "go it alone"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "go it alone",
+        "search_query": [
+            {
+                "length_score": 102,
+                "perplexity_score": 0.0473628231123382,
+                "query": "To do something alone or independently, especially something that is normally or better done in groups",
+                "source_context_score": -1
+            },
+            {
+                "length_score": 54,
+                "perplexity_score": 0.07859196486296477,
+                "query": "To play a hand without the assistance of one's partner",
+                "source_context_score": -1
+            },
+            {
+                "length_score": 11,
+                "perplexity_score": 0.5805951031771573,
+                "query": "go it alone",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "figuratively, idiomatic",
+                "definition": "In jail, in prison"
+            },
+            {
+                "context": "",
+                "definition": "behind bars"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "behind bars",
+        "search_query": [
+            {
+                "length_score": 18,
+                "perplexity_score": 0.27245357301500106,
+                "query": "In jail, in prison",
+                "source_context_score": 1
+            },
+            {
+                "length_score": 11,
+                "perplexity_score": 0.9110477620905096,
+                "query": "behind bars",
+                "source_context_score": 0
+            }
+        ]
+    },
+    {
+        "definition": [
+            {
+                "context": "informal",
+                "definition": "Having a streak of good luck or good progress or success"
+            },
+            {
+                "context": "",
+                "definition": "on a roll"
+            }
+        ],
+        "definition_source": "MAGPIE",
+        "figurative_type": "idiom",
+        "prompt": "on a roll",
+        "search_query": [
+            {
+                "length_score": 56,
+                "perplexity_score": 0.09101470027651105,
+                "query": "Having a streak of good luck or good progress or success",
+                "source_context_score": -1
+            },
+            {
+                "length_score": 9,
+                "perplexity_score": 0.675777382320828,
+                "query": "on a roll",
+                "source_context_score": 0
+            }
+        ]
+    }
+]

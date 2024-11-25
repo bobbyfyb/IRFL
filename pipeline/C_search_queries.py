@@ -1,3 +1,9 @@
+import os
+import sys
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+
 from assets.config import B_search_queries_path, C_search_queries_path, C_search_queries_list_path
 from pipeline.utils.preplexity import get_perplexity
 from pipeline.utils.utils import get_json, dump_json

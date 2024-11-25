@@ -22,8 +22,8 @@ def convert(o):
     raise TypeError
 
 def dump_json(file_path, data, indent=4, sort_keys=True):
-    os.makedirs(os.path.join('\\'.join(file_path.split('\\')[:-1])), exist_ok=True)
-    with open(os.path.join(file_path), 'w+') as f:
+    os.makedirs(os.path.dirname(file_path), exist_ok=True)
+    with open(file_path, 'w+') as f:
         json.dump(data, f, indent=indent, sort_keys=sort_keys, default=convert)
         f.close()
 

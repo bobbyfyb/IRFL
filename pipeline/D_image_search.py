@@ -1,6 +1,7 @@
+import os
 import sys
 
-sys.path.append(r'C:\devel\IRLM-dataset')  # project path for parallel run
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # project path for parallel run
 
 from pipeline.utils.image_search import ImageSearch
 
@@ -13,7 +14,7 @@ try:
     number_of_processes = int(sys.argv[2])
 
     if process_position not in range(1, 20) or number_of_processes not in range(1, 20):
-        print('Process position or number of processes are not valid')
+        print('Process position or number of processes are not valid')           
         raise Exception()
 except:
     print('Failed to initialize parallel process, process will run all search queries')
@@ -101,6 +102,6 @@ class D_Image_search:
                 return True  # Found idiomatic or figurative definition found
         return False  # No idiomatic or figurative definition found
 
-# D_Image_search().search_images()
-# D_Image_search().aggregate_search_queries(5)
-# D_Image_search().generate_final_D_search_results(5)
+D_Image_search().search_images()
+D_Image_search().aggregate_search_queries(5)
+D_Image_search().generate_final_D_search_results(5)
