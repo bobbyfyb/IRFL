@@ -47,6 +47,10 @@ class ImageSearch:
         # Add language preferences
         cOptions.add_argument("--lang=en-US")
         cOptions.add_argument("--accept-language=en-US")
+        cOptions.add_argument("--disable-dev-shm-usage")
+        cOptions.add_argument("--no-sandbox")
+        cOptions.add_argument("--headless")
+        
         self.browser = webdriver.Chrome(service=cService, options=cOptions)
         
         self.browser.set_window_size(1024, 768)

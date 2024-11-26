@@ -37,4 +37,4 @@ original_MAGPIE_dataset = os.path.join(assets_path, 'MAGPIE_unfiltered.jsonl.txt
 MAGPIE_dataset = os.path.join(assets_path, 'MAGPIE_dataset.json')
 
 #chromedriver paths
-chromedriver_path = os.path.join(project_path, 'pipeline', 'chromedriver-mac-arm64', 'chromedriver')
+chromedriver_path = os.path.join(project_path, 'pipeline', 'chromedriver-linux64', 'chromedriver')
