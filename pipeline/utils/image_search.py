@@ -1,3 +1,4 @@
+import json
 import re
 import time
 import urllib.request
@@ -123,6 +124,31 @@ class ImageSearch:
         self.image_metadata.append(img_UUID)
         self.img_detailes_saved += 1
         return True
+    
+    def save_image_details_local(self, link, name, dir='/data2/fyb/figurative/idiom'):      
+        response = self.request_image_by_URL(link)
+        image_info = {}
+        if response is not None:
+            img_UUID = get_str_hash(link)
+            img_format = self.get_img_format(link, response)
+            if img_format == '':
+                self.img_failed += 1
+                return False
+            if os.path.exists(f'{dir}/{img_UUID}.{name}.{img_format}'):
+                self.img_exists += 1
+                self.image_metadata.append(img_UUID)
+                return
+            with open(f'{dir}/{img_UUID}.{name}.{img_format}', 'wb') as f:
+                f.write(response.read())
+            
+            image_info = {'id': img_UUID, 'url': link, 'type': 'http', 'label': name}
+            with open(f'{dir}/searched_images.json', 'a') as f:
+                f.write(json.dumps(image_info) + '\n')
+            
+            self.image_metadata.append(img_UUID)
+            self.img_detailes_saved += 1
+            return True
+
 
     def save_image_details(self, link, name, isBase64=False, file_format=''):
         imageUUID = get_str_hash(link)
@@ -149,7 +175,7 @@ class ImageSearch:
     def save_image(self, image):
         image_name = image.attrs['alt']
         image_url = image.attrs['src']
-        self.save_image_details(image_url, image_name)
+        self.save_image_details_local(image_url, image_name)
         return True
         
     
