@@ -2,6 +2,11 @@ import re
 import time
 import urllib.request
 
+import os
+import sys
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -26,7 +31,7 @@ class ImageSearch:
         self.img_exists = 0
         self.image_folder = ''
         self.website_url = ''
-        self.google_url = "https://www.google.com/search?q={}&source=lnms&tbm=isch"
+        self.google_url = "https://www.google.com/search?q={}&source=lnms&tbm=isch&hl=en&lr=lang_en"
         self.image_formats = image_formats
         self.scroll_interval = 5
         self.image_details_db = ImageDetailsDB()
@@ -35,17 +40,17 @@ class ImageSearch:
     def init_browser(self):
         chrome_options = Options()
         chrome_options.add_argument("--headless")
-        # self.browser = webdriver.Chrome(ChromeDriverManager().install())
         
-        cService = webdriver.ChromeService(executable_path="/home/iiserver32/Workbench/fyb/figurative/IRFL/pipeline/chromedriver-linux64/chromedriver")
+        cService = webdriver.ChromeService(executable_path="/Users/iiresearch/Library/CloudStorage/OneDrive-筑波大学/projects/IRFL/pipeline/chromedriver-mac-arm64/chromedriver")
         cOptions = webdriver.ChromeOptions()
-        cOptions.add_argument("--disable-dev-shm-usage")
-        cOptions.add_argument("--no-sandbox")
-        cOptions.add_argument("--headless")
+        # Add language preferences
+        cOptions.add_argument("--lang=en-US")
+        cOptions.add_argument("--accept-language=en-US")
         self.browser = webdriver.Chrome(service=cService, options=cOptions)
+        
         self.browser.set_window_size(1024, 768)
-        self.browser.get('https://www.google.com/search?q=test&source=lnms&tbm=isch')
-        self.change_region_and_activate_safe_search()
+        self.browser.get('https://www.google.com/search?q=test&source=lnms&tbm=isch&hl=en&lr=lang_en')
+        # self.change_region_and_activate_safe_search()
 
     def search(self, url):
         self.browser.get(url)
@@ -61,7 +66,8 @@ class ImageSearch:
     def change_region_and_activate_safe_search(self):
         # time.sleep(2)
         time.sleep(2)
-        self.browser.find_element(By.XPATH, '//div[@aria-label="Quick Settings"]').click()  # Opens settings
+        # self.browser.find_element(By.XPATH, '//div[@aria-label="Quick Settings"]').click()  # Opens settings
+        self.browser.find_element(By.XPATH, '//div[@aria-label="Settings"]').click()  # Opens settings
         time.sleep(1)
         self.browser.find_element(By.XPATH, "//a[text()='See all Search settings']").click()  # Click on See all settings time.sleep(1)
         time.sleep(1)
@@ -136,41 +142,103 @@ class ImageSearch:
         return str(get_random_number(5))
 
     def save_image(self, image):
-        self.browser.find_element(By.XPATH, "//*[@data-id='{}']".format(image.attrs['data-id'])).click()
-        time.sleep(4)
-        image_details_panel = BeautifulSoup(str(self.browser.page_source), "html.parser")
-        img_element = image_details_panel.find("div", class_="BIB1wf").find("img", {"jsname": "HiaYvf"})
-        self.website_url = image_details_panel.find("div", class_="BIB1wf").find('a', class_='aDMkBb').attrs.get('href')
-        base64_source, file_format = get_base64_format(img_element.attrs['src'])
-        img_name = self.get_img_name(img_element)
-        if base64_source is None:
-            full_image_source_url = img_element.attrs['src']
-            self.save_image_details(full_image_source_url, img_name)
-            return True
+        image_name = image.attrs['alt']
+        image_url = image.attrs['src']
+        self.save_image_details(image_url, image_name)
+        return True
+        
+    
+    # def save_image(self, image):
+    #     self.browser.find_element(By.XPATH, "//*[@data-id='{}']".format(image.attrs['data-id'])).click()
+    #     time.sleep(4)
+    #     image_details_panel = BeautifulSoup(str(self.browser.page_source), "html.parser")
+    #     img_element = image_details_panel.find("div", class_="BIB1wf").find("img", {"jsname": "HiaYvf"})
+    #     self.website_url = image_details_panel.find("div", class_="BIB1wf").find('a', class_='aDMkBb').attrs.get('href')
+    #     base64_source, file_format = get_base64_format(img_element.attrs['src'])
+    #     img_name = self.get_img_name(img_element)
+    #     if base64_source is None:
+    #         full_image_source_url = img_element.attrs['src']
+    #         self.save_image_details(full_image_source_url, img_name)
+    #         return True
 
-        if base64_source is not None and file_format is not None:
-            self.save_image_details(base64_source, img_name, True, file_format)
-            return True
+    #     if base64_source is not None and file_format is not None:
+    #         self.save_image_details(base64_source, img_name, True, file_format)
+    #         return True
 
-        self.img_failed += 1
-        return False
+    #     self.img_failed += 1
+    #     return False
 
     def iterate_over_image_results(self, soup):
-        image_results = list(list(soup.find('div', {"id": "islrg"}))[0].children)
-        self.img_detailes_saved = 0
-        self.img_failed = 0
-        self.img_exists = 0
-        self.image_metadata = []
-        for count, image in enumerate(image_results):
-            if image.name != 'div' or image.find('div', {"jscontroller": "hr4ghb"}) is not None:
-                continue
-            try:
-                if self.img_detailes_saved + self.img_exists >= self.limit:
-                    break
-                self.save_image(image)
+                # Debug and find alternative containers
+                print("Analyzing HTML structure...")
+                
+                # Try multiple possible selectors for images
+                possible_containers = [
+                    soup.find_all('div', class_='ivg-i'), # Common image result class
+                    # soup.find_all('div', class_='rg_i'),  # Alternative image container
+                    # soup.select('img[data-src]'),         # Images with data-src attribute
+                    # soup.select('img[src]'),              # All images with src attribute
+                ]
+                
+                image_results = []
+                for container in possible_containers:
+                    if container:
+                        image_results = container
+                        print(f"Found {len(container)} images")
+                        break
+                        
+                if not image_results:
+                    print("No images found in the HTML")
+                    return
+                
+                self.img_detailes_saved = 0
+                self.img_failed = 0
+                self.img_exists = 0
+                self.image_metadata = []
+                
+                for count, image in enumerate(image_results):
+                    try:
+                        if self.img_detailes_saved + self.img_exists >= self.limit:
+                            break
+                            
+                        # Handle different HTML structures
+                        if image.name == 'img':
+                            img_element = image
+                        else:
+                            img_element = image.find('img')
+                            
+                        if img_element:
+                            self.save_image(img_element)
+                            
+                    except Exception as e:
+                        print(f"Error processing image {count}")
+                        print(e)
+                        self.img_failed += 1
+            
+                # Debug output
+                print(f"Total images found: {len(image_results)}")  
+    
+    # def iterate_over_image_results(self, soup):
+        
+    #     with open("./soup.html", "w") as f:
+    #         f.write(str(soup))
+        
+    #     image_results = list(list(soup.find('div', {"id": "islrg"}))[0].children)
+            
+    #     self.img_detailes_saved = 0
+    #     self.img_failed = 0
+    #     self.img_exists = 0
+    #     self.image_metadata = []
+    #     for count, image in enumerate(image_results):
+    #         if image.name != 'div' or image.find('div', {"jscontroller": "hr4ghb"}) is not None:
+    #             continue
+    #         try:
+    #             if self.img_detailes_saved + self.img_exists >= self.limit:
+    #                 break
+    #             self.save_image(image)
 
-            except Exception as e:
-                print(e)
+    #         except Exception as e:
+    #             print(e)
 
     def google(self, query, limit):
         self.limit = limit

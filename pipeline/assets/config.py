@@ -14,7 +14,7 @@
 
 import os
 
-project_path = '/home/iiserver32/Workbench/fyb/figurative/IRFL'
+project_path = '/Users/iiresearch/Library/CloudStorage/OneDrive-筑波大学/projects/IRFL'
 assets_path = os.path.join(project_path, 'pipeline', 'assets')
 
 # Search query paths
