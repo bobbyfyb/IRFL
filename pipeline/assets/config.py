@@ -14,7 +14,7 @@
 
 import os
 
-project_path = '/Users/iiresearch/Library/CloudStorage/OneDrive-筑波大学/projects/IRFL'
+project_path = os.getcwd()
 assets_path = os.path.join(project_path, 'pipeline', 'assets')
 
 # Search query paths
@@ -35,3 +35,6 @@ F_filter_results_path = os.path.join(assets_path, 'F_filter_result.json')
 # Dataset paths
 original_MAGPIE_dataset = os.path.join(assets_path, 'MAGPIE_unfiltered.jsonl.txt')
 MAGPIE_dataset = os.path.join(assets_path, 'MAGPIE_dataset.json')
+
+#chromedriver paths
+chromedriver_path = os.path.join(project_path, 'pipeline', 'chromedriver-mac-arm64', 'chromedriver')

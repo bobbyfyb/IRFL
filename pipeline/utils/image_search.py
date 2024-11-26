@@ -19,7 +19,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from pipeline.assets.constants import image_formats
 from pipeline.utils.image_details_db import ImageDetailsDB
 from pipeline.utils.utils import get_str_hash, get_random_number, get_base64_format
-
+from pipeline.assets.config import chromedriver_path
 
 class ImageSearch:
 
@@ -41,7 +41,8 @@ class ImageSearch:
         chrome_options = Options()
         chrome_options.add_argument("--headless")
         
-        cService = webdriver.ChromeService(executable_path="/Users/iiresearch/Library/CloudStorage/OneDrive-筑波大学/projects/IRFL/pipeline/chromedriver-mac-arm64/chromedriver")
+        cService = webdriver.ChromeService(executable_path=chromedriver_path)
+        # cService = webdriver.ChromeService(executable_path='/Users/artorias/Library/CloudStorage/OneDrive-筑波大学/projects/IRFL/pipeline/chromedriver-mac-arm64/chromedriver')
         cOptions = webdriver.ChromeOptions()
         # Add language preferences
         cOptions.add_argument("--lang=en-US")

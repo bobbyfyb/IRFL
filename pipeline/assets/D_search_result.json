@@ -1151,8 +1151,10 @@
         "search_query": [
             {
                 "length_score": 18,
+                "num_search_results": 0,
                 "perplexity_score": 0.6107670466105143,
                 "query": "A deciding instant",
+                "search_results": [],
                 "source_context_score": 2
             },
             {
@@ -1350,8 +1352,10 @@
         "search_query": [
             {
                 "length_score": 21,
+                "num_search_results": 0,
                 "perplexity_score": 0.32485198974609375,
                 "query": "A dangerous situation",
+                "search_results": [],
                 "source_context_score": 1
             },
             {
