@@ -14,8 +14,8 @@ from pipeline.utils.utils import get_str_hash
 class ImageDetailsDB:
 
     def __init__(self, use_local_cache=True):
-        self.client = boto3.client('dynamodb', aws_access_key_id=os.environ['AWS_ID'], aws_secret_access_key=os.environ['AWS_SECRET'], region_name='us-east-1')
-        self.dynamodb = boto3.resource('dynamodb', aws_access_key_id=os.environ['AWS_ID'], aws_secret_access_key=os.environ['AWS_SECRET'], region_name='us-east-1')
+        self.client = boto3.client('dynamodb', aws_access_key_id=os.environ['AWS_ID'], aws_secret_access_key=os.environ['AWS_SECRET'], region_name='ap-northeast-1')
+        self.dynamodb = boto3.resource('dynamodb', aws_access_key_id=os.environ['AWS_ID'], aws_secret_access_key=os.environ['AWS_SECRET'], region_name='ap-northeast-1')
         self.dynamoDB_Cache = dict()
         if use_local_cache:
             self.init_dynamoDB_cache()
