@@ -134,11 +134,11 @@ class ImageSearch:
             if img_format == '':
                 self.img_failed += 1
                 return False
-            if os.path.exists(f'{dir}/{img_UUID}.{name}.{img_format}'):
+            if os.path.exists(f'{dir}/{img_UUID}.{img_format}'):
                 self.img_exists += 1
                 self.image_metadata.append(img_UUID)
                 return
-            with open(f'{dir}/{img_UUID}.{name}.{img_format}', 'wb') as f:
+            with open(f'{dir}/{img_UUID}.{img_format}', 'wb') as f:
                 f.write(response.read())
             
             image_info = {'id': img_UUID, 'url': link, 'type': 'http', 'label': name}
