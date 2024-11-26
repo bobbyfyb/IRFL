@@ -22,7 +22,8 @@ class B_search_queries:
         MAGPIE = get_json(MAGPIE_dataset)
         ids = list(MAGPIE)
         MAGPIE_idioms = []
-        for id in ids[:50]:
+        # for id in ids[:50]:
+        for id in ids:
             MAGPIE_idioms.append(self.MAGPIE_dataset_generation.get_IRLM_format(MAGPIE[id]))
         print('[B_search_queries]: MAGPIE Initialized')
         return MAGPIE_idioms
