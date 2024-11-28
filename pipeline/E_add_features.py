@@ -1,12 +1,15 @@
 import sys
+import os
 from datetime import datetime
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from assets.config import D_final_search_result_path, E_filter_results_folder_path, E_filter_results_path
 from assets.constants import image_formats
 from pipeline.utils.filter_utils import enchant_idiom_ViLT_features
 from pipeline.utils.utils import get_json, dump_json
 
-sys.path.append(r'C:\devel\IRLM')  # project path for parallel run
+# sys.path.append(r'C:\devel\IRLM')  # project path for parallel run
 
 ##########################################
 FILL_EMPTY_QUERIES_MODE = False

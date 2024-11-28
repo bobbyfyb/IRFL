@@ -137,3 +137,15 @@ dmypy.json
 .idea
 
 chrome*/
+
+pipeline/assets/.json
+pipeline/assets/B_search_queries.json
+pipeline/assets/C_search_queries_list.json
+pipeline/assets/C_search_queries.json
+pipeline/assets/D_search_result.json
+pipeline/assets/D_search_results/D_search_result-1-5.json
+pipeline/assets/D_search_results/D_search_result-2-5.json
+pipeline/assets/D_search_results/D_search_result-3-5.json
+pipeline/assets/D_search_results/D_search_result-4-5.json
+pipeline/assets/D_search_results/D_search_result-5-5.json
+pipeline/assets/D_search_results/D_search_result-aggregated-5.json

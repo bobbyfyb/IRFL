@@ -35,7 +35,7 @@ class ImageSearch:
         self.google_url = "https://www.google.com/search?q={}&source=lnms&tbm=isch&hl=en&lr=lang_en"
         self.image_formats = image_formats
         self.scroll_interval = 5
-        self.image_details_db = ImageDetailsDB()
+        # self.image_details_db = ImageDetailsDB()
         self.init_browser()
 
     def init_browser(self):
