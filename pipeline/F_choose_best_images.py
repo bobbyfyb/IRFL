@@ -1,4 +1,9 @@
 import json
+import sys
+import os 
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 
 from assets.config import E_filter_results_path, F_filter_results_path
 from assets.constants import images_blacklist, valid_idiom_definition_source_context_score_threshold, idioms_blacklist

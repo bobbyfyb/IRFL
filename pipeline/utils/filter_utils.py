@@ -1,4 +1,9 @@
 import json
+import sys
+import os
+
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import cv2
 import nltk
@@ -8,15 +13,14 @@ from transformers import ViltProcessor, ViltForImageAndTextRetrieval
 
 from pipeline.assets.constants import forbidden_website
 from pipeline.utils.OCR_utils import filter_ocr
-from pipeline.utils.image_details_db import ImageDetailsDB
 from pipeline.utils.utils import convert, open_image_by_url, get_cv2_image_by_url
 
 wnl = WordNetLemmatizer()
 
 nltk.download('punkt')
+nltk.download('punkt_tab') 
 nltk.download('averaged_perceptron_tagger')
-
-image_details_db = ImageDetailsDB()
+nltk.download('averaged_perceptron_tagger_eng')
 
 device = 'cuda'
 
@@ -26,10 +30,30 @@ vilt_model = ViltForImageAndTextRetrieval.from_pretrained("dandelin/vilt-b32-fin
 vilt_model.to(torch.device("cuda" if torch.cuda.is_available() else "cpu"))
 
 counter = 1
+
+searched_images_path = '/data2/fyb/figurative/idiom/searched_images.json'
+
+def load_image_paths():
+    image_paths = {}
+    with open(searched_images_path, 'r') as f:
+        paths = f.readlines()
+    paths = [json.loads(line) for line in paths]
+    for path in paths:
+        image_paths[path['id']] = path['url']
+    return image_paths
+        
+
+image_paths = load_image_paths()
+
 def enchant_idiom_ViLT_features(idiom, prompt, query, OVERRIDE_MODE=False):
     global counter
     for img_metadata in idiom['search_results']:
-        image_path = image_details_db.get_image_url_and_source(img_metadata['name']).get('img')
+        # image_path = image_paths.get(img_metadata['name'], {}).get('img')
+        image_path = image_paths.get(img_metadata['name'], '')
+        if not image_path:
+            print(f"Warning: No image path found for {img_metadata['name']}")
+            continue
+
         if img_metadata.get('filter_ocr') is not None and OVERRIDE_MODE is False:
             filter_ocr_details = filter_ocr(image_path, prompt, query, img_metadata.get('OCR_metadata'))
             set_image_OCR(img_metadata, filter_ocr_details)
@@ -108,8 +132,10 @@ def set_image_OCR(img_metadata, filter_ocr_details):
 
 def filter_forbidden_websites_images(image):
     try:
-        result = image_details_db.get_item_by_uuid(image.get('name'))
-        return forbidden_website not in result.get('Item').get('websiteURL').get('S')
+        # result = image_paths.get(image.get('name'), {})
+        result = image_paths.get(image.get('name'), '')
+        # return forbidden_website not in result.get('websiteURL', '')
+        return forbidden_website not in result
     except Exception as exception:
         print(exception)
         return True

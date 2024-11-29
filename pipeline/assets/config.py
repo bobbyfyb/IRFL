@@ -28,8 +28,8 @@ D_final_search_result_path = os.path.join(assets_path, 'D_search_result.json')
 D_aggregated_search_result_folder_path = os.path.join(assets_path, 'D_search_results', 'D_search_result-aggregated-10.json')
 
 # Filter result paths
-E_filter_results_folder_path = os.path.join(assets_path, 'E_filter_result', 'E_filter_result.json')
-E_filter_results_path = os.path.join(assets_path, 'E_filter_result.json')
+E_filter_results_path = os.path.join(assets_path, 'E_filter_result', 'E_filter_result.json')
+# E_filter_results_path = os.path.join(assets_path, 'E_filter_result.json')
 F_filter_results_path = os.path.join(assets_path, 'F_filter_result.json')
 
 # Dataset paths
